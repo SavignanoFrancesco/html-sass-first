@@ -13,6 +13,12 @@ $btn2_font_weight: bolder;
 $btn2_radius: 15px;
 $btn2_hover_color: white;
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     color: $main_color;
     text-transform: uppercase;
