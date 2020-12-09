@@ -1,6 +1,10 @@
 $main_color: orange;
 $alt_color: purple;
 
+$h1_margin: 20px 0;
+$h2_margin: 15px 0;
+$p_margin: 10px 0;
+
 $btn1_padding: 10px 30px;
 $btn1_font_weight: bolder;
 $btn1_border: 2px solid $main_color;
@@ -19,12 +23,18 @@ $btn2_hover_color: white;
 
 h1{
     color: $main_color;
+    margin: $h1_margin;
     text-transform: uppercase;
 }
 
 h2{
     color: $alt_color;
+    margin: $h2_margin;
     text-transform: uppercase;
+}
+
+p{
+    margin: $p_margin;
 }
 
 .btn1{
