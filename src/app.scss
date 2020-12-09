@@ -11,7 +11,6 @@ $p_margin: 10px 0;
 
 $btn1_padding: 10px 30px;
 $btn1_font_weight: bolder;
-$btn1_border: 2px solid $main_color;
 $btn1_radius: 10px;
 
 $btn2_padding: 15px 40px;
@@ -49,11 +48,11 @@ p{
 }
 
 .btn1{
-    font-weight: $btn1_font_weight;
     color: $main_color;
-    padding: $btn1_padding;
-    border: $btn1_border;
+    border: 2px solid $main_color;
     border-radius: $btn1_radius;
+    padding: $btn1_padding;
+    font-weight: $btn1_font_weight;
 }
 .btn1:hover{
     color: $alt_color;

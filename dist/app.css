@@ -28,11 +28,11 @@ p {
 }
 
 .btn1 {
-  font-weight: bolder;
   color: orange;
-  padding: 10px 30px;
   border: 2px solid orange;
   border-radius: 10px;
+  padding: 10px 30px;
+  font-weight: bolder;
 }
 
 .btn1:hover {
