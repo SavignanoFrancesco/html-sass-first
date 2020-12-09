@@ -1,7 +1,11 @@
 $main_color: orange;
 $alt_color: purple;
 
-$h1_margin: 20px 0;
+$container_border: 1px solid black;
+$container_padding: 10px;
+$container_margin: 10px 0;
+
+$h1_margin:0 0 20px 0;
 $h2_margin: 15px 0;
 $p_margin: 10px 0;
 
@@ -19,6 +23,13 @@ $btn2_hover_color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container{
+    border-top: $container_border;
+    border-bottom: $container_border;
+    padding: $container_padding;
+    margin: $container_margin;
 }
 
 h1{
