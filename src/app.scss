@@ -12,6 +12,7 @@ $btn2_padding: 15px 40px;
 $btn2_font_weight: bolder;
 $btn2_background: $main_color;
 $btn2_radius: 15px;
+$btn2_hover_color: white;
 
 h1{
     color: $main_color;
@@ -47,6 +48,6 @@ p{
     border-radius: $btn2_radius;
 }
 .btn2:hover{
-    color: white;
-    border-color: white;
+    color: $btn2_hover_color;
+    border-color: $btn2_hover_color;
 }
