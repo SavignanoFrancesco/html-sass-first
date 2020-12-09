@@ -1,11 +1,18 @@
 $main_color: orange;
+$alt_color: purple;
 $p_color: black;
-$btn1_background: purple;
-$btn1_padding: 10px 20px;
+$btn1_padding: 10px 30px;
 $btn1_font_weight: bolder;
+$btn1_border: 2px solid $main_color;
+$btn1_radius: 10px;
 
 h1{
     color: $main_color;
+    text-transform: uppercase;
+}
+
+h2{
+    color: $alt_color;
     text-transform: uppercase;
 }
 
@@ -13,9 +20,14 @@ p{
     color: $p_color;
 }
 
-button{
+.btn1{
     font-weight: $btn1_font_weight;
     color: $main_color;
-    background: $btn1_background;
     padding: $btn1_padding;
+    border: $btn1_border;
+    border-radius: $btn1_radius;
+}
+.btn1:hover{
+    color: $alt_color;
+    border-color: $alt_color;
 }
