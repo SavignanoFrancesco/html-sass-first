@@ -1,0 +1,21 @@
+$main_color: orange;
+$p_color: black;
+$btn1_background: purple;
+$btn1_padding: 10px 20px;
+$btn1_font_weight: bolder;
+
+h1{
+    color: $main_color;
+    text-transform: uppercase;
+}
+
+p{
+    color: $p_color;
+}
+
+button{
+    font-weight: $btn1_font_weight;
+    color: $main_color;
+    background: $btn1_background;
+    padding: $btn1_padding;
+}

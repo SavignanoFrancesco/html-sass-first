@@ -1,0 +1,16 @@
+h1 {
+  color: orange;
+  text-transform: uppercase;
+}
+
+p {
+  color: black;
+}
+
+button {
+  font-weight: bolder;
+  color: orange;
+  background: purple;
+  padding: 10px 20px;
+}
+
