@@ -30,6 +30,7 @@ p {
   color: purple;
   padding: 15px 40px;
   background: orange;
+  border-color: purple;
   border-radius: 15px;
 }
 
