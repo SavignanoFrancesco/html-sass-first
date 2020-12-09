@@ -25,3 +25,16 @@ p {
   border-color: purple;
 }
 
+.btn2 {
+  font-weight: bolder;
+  color: purple;
+  padding: 15px 40px;
+  background: orange;
+  border-radius: 15px;
+}
+
+.btn2:hover {
+  color: white;
+  border-color: white;
+}
+

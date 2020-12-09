@@ -1,10 +1,17 @@
 $main_color: orange;
 $alt_color: purple;
+
 $p_color: black;
+
 $btn1_padding: 10px 30px;
 $btn1_font_weight: bolder;
 $btn1_border: 2px solid $main_color;
 $btn1_radius: 10px;
+
+$btn2_padding: 15px 40px;
+$btn2_font_weight: bolder;
+$btn2_background: $main_color;
+$btn2_radius: 15px;
 
 h1{
     color: $main_color;
@@ -30,4 +37,16 @@ p{
 .btn1:hover{
     color: $alt_color;
     border-color: $alt_color;
+}
+
+.btn2{
+    font-weight: $btn2_font_weight;
+    color: $alt_color;
+    padding: $btn2_padding;
+    background: $btn2_background;
+    border-radius: $btn2_radius;
+}
+.btn2:hover{
+    color: white;
+    border-color: white;
 }
